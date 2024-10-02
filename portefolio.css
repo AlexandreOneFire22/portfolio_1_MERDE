@@ -1,0 +1,218 @@
+body {
+    background-image: url("fond_bleu_noir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+}
+
+nav {
+    background: hsla(182, 70%, 52%, 1);
+    background: radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    background: -moz-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    background: -webkit-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2FD5DB", endColorstr="#1F28CE", GradientType=1);
+    color: ghostwhite;
+    padding: 0.5em 0;
+    position: fixed;
+    /* Le menu a une position fixe lors de la descente dans la page */
+    text-align: center;
+    /* alignement du texte centré */
+    width: 100%;
+    /* largeur 100% de la fenêtre */
+    top: 0;
+    /* aligné à 0px du haut */
+    left: 0;
+    /* aligné à 0px de la gauche */
+}
+
+nav a {
+    padding: 0.5em 2em;
+    color: ghostwhite;
+    text-decoration: none;
+    height: 33px;
+}
+
+nav a:hover {
+    background: hsla(56, 81%, 46%, 1);
+    background: radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+    background: -moz-radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+    background: -webkit-radial-gradient(circle, hsla(223, 68%, 68%, 1) 48%, rgba(0, 0, 0, 0) 85%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#D7CA16", endColorstr="#058B9A", GradientType=1);
+}
+
+.accueil-contenu-principal {
+    display: block;
+    padding: 150px;
+}
+
+p{
+    font-size: 20px;
+    text-indent : 20px;
+    margin-left: 60px;
+    text-justify: auto;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: ghostwhite;
+    margin-top: 2em;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: ghostwhite;
+    margin-top: 1em;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: hsla(182, 70%, 52%, 1);
+    background: radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    background: -moz-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    background: -webkit-radial-gradient(circle, hsla(182, 70%, 52%, 1) 43%, hsla(237, 74%, 46%, 1) 85%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2FD5DB", endColorstr="#1F28CE", GradientType=1);
+    color: ghostwhite;
+    margin-bottom: -0.5em;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.images-passions {
+    display: flex;
+    justify-content: center;
+}
+
+.vrchat {
+    background-image: url('images/vrchat.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 210px;
+    width: 24%;
+}
+
+.informatique {
+    background-image: url('images/informatique.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    width: 14%;
+}
+
+.ittakedwo {
+    background-image: url('images/ittakedwo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    width: 10%;
+}
+
+.classroom {
+    background-image: url('images/classroom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    width: 10%;
+}
+
+.certifications-title {
+    text-align: center;
+}
+
+.certifications-title::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 1px;
+    border-top: 1px solid white;
+    margin: 1rem auto;
+}
+
+.images-certifications-pix {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.certification-pix {
+	background-image: url('images/attestation-pix-20230223.png');
+	background-size: cover;
+	padding: 280px;
+}
+
+.images-certifications-cnil {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.certifications-cnil1 {
+	background-image: url('certification/certifications\ CNIL/Certificat_1.jpg');
+    background-size: cover;
+    padding: 200px;
+    width: 165px;
+}
+
+.certifications-cnil2 {
+	background-image: url('certification/certifications\ CNIL/Certificat_2.jpg');
+    background-size: cover;
+    padding: 200px;
+    width: 165px;
+}
+
+.certifications-cnil3 {
+	background-image: url('certification/certifications\ CNIL/Certificat_3.jpg');
+    background-size: cover;
+    padding: 200px;
+    width: 165px;
+}
+
+.certifications-cnil4 {
+	background-image: url('certification/certifications\ CNIL/Certificat_4.jpg');
+    background-size: cover;
+    padding: 200px;
+    width: 165px;
+}
+
+.certifications-cnil5 {
+	background-image: url('certification/certifications\ CNIL/Certificat_5.jpg');
+    background-size: cover;
+    padding: 200px;
+    width: 165px;
+}
+
+.images-certifications-anssi {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.certifications-anssi1 {
+	background-image: url('certification/certificat\ Anssi.jpg');
+	background-size: cover;
+	padding: 200px;
+	width: 165px;
+}
+
+.main-cv {
+    display: flex;
+    justify-content: center;
+}
+
+.cv {
+	background-image: url('images/cv.png');
+	background-size: cover;
+	padding: 250px;
+	width: 40px;
+	height: 196px;
+	margin: 50px;
+
+}
