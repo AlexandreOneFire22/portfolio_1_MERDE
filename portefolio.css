@@ -217,3 +217,25 @@ footer {
 	margin: 50px;
 
 }
+
+html,body {
+    height: 98%;
+}
+
+.container {
+    flex : 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+body.page{
+    min-height: 98.3vh;
+    display: flex;
+    flex-direction:  column;
+}
+
+.page footer {
+    margin-top: auto;
+}
